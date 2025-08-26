@@ -26,7 +26,7 @@ function countSlidesInColumn() {
     // 1) If it has RichText
     try {
       url = richVals[r][0] && richVals[r][0].getLinkUrl();
-    } catch (e) { /* نادیده بگیر */ }
+    } catch (e) { /* ignore */ }
 
     // 2) if URL is in cell as text
     if (!url) {
