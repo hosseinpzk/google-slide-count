@@ -68,8 +68,8 @@ function countSlidesInColumn() {
 function extractDriveId(url) {
   if (!url) return null;
   const patterns = [
-    /\/presentation\/u\/\d+\/d\/([a-zA-Z0-9_-]{10,})\b/,  // حالت u/0/d/
-    /\/presentation\/d\/([a-zA-Z0-9_-]{10,})\b/,          // حالت ساده d/
+    /\/presentation\/u\/\d+\/d\/([a-zA-Z0-9_-]{10,})\b/,  
+    /\/presentation\/d\/([a-zA-Z0-9_-]{10,})\b/,          
     /\/file\/d\/([a-zA-Z0-9_-]{10,})\b/,
     /[?&]id=([a-zA-Z0-9_-]{10,})\b/,
     /https:\/\/drive\.google\.com\/open\?id=([a-zA-Z0-9_-]{10,})\b/
